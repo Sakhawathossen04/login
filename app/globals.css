@@ -1,0 +1,33 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#14142b;background:#fff}
+.shell{display:grid;grid-template-columns:1fr 1fr;min-height:100vh}
+.brand{background:#1f1650;color:#fff;padding:48px;display:flex;flex-direction:column;justify-content:space-between}
+.logo{font-weight:700;font-size:20px}
+.kicker{font-size:13px;color:#a9a0e6;margin:0}
+.brand h1{font-size:46px;line-height:1.12;margin:12px 0;font-weight:600}
+.sub{color:#c9c3f0;max-width:32ch}
+.panel{display:flex;align-items:center;justify-content:center;padding:32px}
+.card{width:100%;max-width:400px}
+.card h2{font-size:30px;margin:0 0 6px}
+.muted{color:#667;margin:0 0 22px}
+.field{position:relative;display:block;margin:20px 0}
+.field span{position:absolute;top:-9px;left:14px;background:#fff;padding:0 6px;font-size:12px;font-weight:600;color:#0284c7}
+.field input{width:100%;padding:16px 56px 16px 16px;border:1.5px solid #38bdf8;border-radius:14px;font-size:15px;outline:none}
+.field input:focus-visible{box-shadow:0 0 0 3px #bae6fd}
+.eye{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:0;cursor:pointer;font-size:12px;color:#556}
+.btn{display:block;width:100%;margin:18px 0;padding:14px;border:0;border-radius:10px;background:#0ea5e9;color:#fff;font-weight:700;font-size:15px;cursor:pointer}
+.btn:hover{background:#0284c7}.btn:disabled{opacity:.6;cursor:wait}
+.link{color:#556;font-size:13px;text-decoration:none}
+.right{display:block;text-align:right;margin-top:-10px}
+.err{color:#dc2626;font-size:13px;margin:8px 0}
+.ok{color:#15803d;font-size:14px;line-height:1.5}
+.or{display:flex;align-items:center;gap:12px;color:#667;font-size:13px;margin:4px 0 16px}
+.or:before,.or:after{content:"";flex:1;height:1px;background:#e2e2ea}
+.gbtn{display:flex;gap:10px;align-items:center;justify-content:center;width:100%;padding:12px;border:1px solid #dbe3e8;border-radius:10px;background:#f1f7fa;cursor:pointer;font-size:15px}
+.gbtn:hover{background:#e6f0f5}
+.foot{text-align:center;font-size:14px;margin-top:22px}
+.foot a{font-weight:700;color:#14142b}
+.home header{display:flex;justify-content:space-between;align-items:center;padding:16px 32px;border-bottom:1px solid #eee}
+.home section{padding:48px 32px}
+.out{border:1px solid #ddd;background:#fff;border-radius:8px;padding:8px 14px;cursor:pointer}
+@media(max-width:800px){.shell{grid-template-columns:1fr}.brand{display:none}}
