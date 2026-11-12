@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auth Starter (Next.js + NextAuth + Prisma + Postgres)
 
 Routes: /login /register /forgot-password /reset-password /home (protected)
@@ -24,3 +25,6 @@ Run `npx prisma db push` once locally with the production DATABASE_URL.
 ## Add to a bigger site
 Copy: app/api/*, lib/*, components/*, prisma/*, middleware.js, login/register/forgot/reset pages.
 Protect any route by adding it to `matcher` in middleware.js.
+=======
+# login
+>>>>>>> 3770026655fadad31faadd9bb92e74c9b836338f
